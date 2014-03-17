@@ -1,0 +1,1442 @@
+[DEBUG] [Thu,2014-02-20 12:55:04] [UniTestCase.py-line:80] [<module>-MainThread] Task Start****************************************************************************************************
+
+
+[DEBUG] [Thu,2014-02-20 12:55:04] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+[DEBUG] [Thu,2014-02-20 12:55:04] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Thu,2014-02-20 12:55:04] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Thu,2014-02-20 12:55:04] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+
+
+[DEBUG] [Thu,2014-02-20 12:55:04] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个重复的item_id，返回多次重复数据********************
+[DEBUG] [Thu,2014-02-20 12:55:04] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Thu,2014-02-20 12:55:04] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Thu,2014-02-20 12:55:04] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个重复的item_id，返回多次重复数据********************
+
+
+[DEBUG] [Thu,2014-02-20 12:55:04] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+
+
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:不指定item_id，返回空数据********************
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:不指定item_id，返回空数据********************
+
+
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的各字段超长，有检查，不会直接报错********************
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的各字段超长，有检查，不会直接报错********************
+
+
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+
+
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个异常的algorithmId，返回空数据********************
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个异常的algorithmId，返回空数据********************
+
+
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个不存在的Item_id, 返回空数据********************
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个不存在的Item_id, 返回空数据********************
+
+
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+
+
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+
+
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+
+
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0.0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0.0, 2.1, 2.1]}]
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+
+
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+
+
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+
+
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的头字段不在白名单内，不会有返回********************
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的头字段不在白名单内，不会有返回********************
+
+
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+
+
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+
+
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id大于10时，返回空数据********************
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id大于10时，返回空数据********************
+
+
+[DEBUG] [Thu,2014-02-20 12:55:05] [UniTestCase.py-line:83] [<module>-MainThread] Task End****************************************************************************************************
+
+
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:80] [<module>-MainThread] Task Start****************************************************************************************************
+
+
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+
+
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个重复的item_id，返回多次重复数据********************
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个重复的item_id，返回多次重复数据********************
+
+
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+
+
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:不指定item_id，返回空数据********************
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:不指定item_id，返回空数据********************
+
+
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的各字段超长，有检查，不会直接报错********************
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的各字段超长，有检查，不会直接报错********************
+
+
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+
+
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个异常的algorithmId，返回空数据********************
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个异常的algorithmId，返回空数据********************
+
+
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个不存在的Item_id, 返回空数据********************
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个不存在的Item_id, 返回空数据********************
+
+
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+
+
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+
+
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+
+
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0.0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0.0, 2.1, 2.1]}]
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+
+
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+
+
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+
+
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的头字段不在白名单内，不会有返回********************
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的头字段不在白名单内，不会有返回********************
+
+
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+
+
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+
+
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id大于10时，返回空数据********************
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id大于10时，返回空数据********************
+
+
+[DEBUG] [Sat,2014-02-22 23:22:50] [UniTestCase.py-line:83] [<module>-MainThread] Task End****************************************************************************************************
+
+
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:80] [<module>-MainThread] Task Start****************************************************************************************************
+
+
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+
+
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个重复的item_id，返回多次重复数据********************
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个重复的item_id，返回多次重复数据********************
+
+
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+
+
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:不指定item_id，返回空数据********************
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:不指定item_id，返回空数据********************
+
+
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的各字段超长，有检查，不会直接报错********************
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的各字段超长，有检查，不会直接报错********************
+
+
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+
+
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个异常的algorithmId，返回空数据********************
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个异常的algorithmId，返回空数据********************
+
+
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个不存在的Item_id, 返回空数据********************
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个不存在的Item_id, 返回空数据********************
+
+
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+
+
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+
+
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+
+
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0.0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0.0, 2.1, 2.1]}]
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+
+
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+
+
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+
+
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的头字段不在白名单内，不会有返回********************
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的头字段不在白名单内，不会有返回********************
+
+
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+
+
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+
+
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id大于10时，返回空数据********************
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id大于10时，返回空数据********************
+
+
+[DEBUG] [Mon,2014-02-24 01:01:19] [UniTestCase.py-line:83] [<module>-MainThread] Task End****************************************************************************************************
+
+
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:81] [<module>-MainThread] Task Start****************************************************************************************************
+
+
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:59] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:74] [TestServiceProc-MainThread] End Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+
+
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个重复的item_id，返回多次重复数据********************
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:59] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:74] [TestServiceProc-MainThread] End Log of Case:请求多个重复的item_id，返回多次重复数据********************
+
+
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:59] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:74] [TestServiceProc-MainThread] End Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+
+
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:不指定item_id，返回空数据********************
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:59] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:74] [TestServiceProc-MainThread] End Log of Case:不指定item_id，返回空数据********************
+
+
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的各字段超长，有检查，不会直接报错********************
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:59] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:74] [TestServiceProc-MainThread] End Log of Case:请求的各字段超长，有检查，不会直接报错********************
+
+
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:59] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:74] [TestServiceProc-MainThread] End Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+
+
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个异常的algorithmId，返回空数据********************
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:59] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:74] [TestServiceProc-MainThread] End Log of Case:指定一个异常的algorithmId，返回空数据********************
+
+
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个不存在的Item_id, 返回空数据********************
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:59] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:74] [TestServiceProc-MainThread] End Log of Case:指定一个不存在的Item_id, 返回空数据********************
+
+
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:59] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:74] [TestServiceProc-MainThread] End Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+
+
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:59] [TestServiceProc-MainThread] ActData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:74] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+
+
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:59] [TestServiceProc-MainThread] ActData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:74] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+
+
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0.0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0.0, 2.1, 2.1]}]
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:59] [TestServiceProc-MainThread] ActData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:74] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+
+
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:59] [TestServiceProc-MainThread] ActData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:74] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+
+
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:59] [TestServiceProc-MainThread] ActData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:74] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+
+
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的头字段不在白名单内，不会有返回********************
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:74] [TestServiceProc-MainThread] End Log of Case:请求的头字段不在白名单内，不会有返回********************
+
+
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:59] [TestServiceProc-MainThread] ActData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:74] [TestServiceProc-MainThread] End Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+
+
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:59] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:74] [TestServiceProc-MainThread] End Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+
+
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id大于10时，返回空数据********************
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:59] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:74] [TestServiceProc-MainThread] End Log of Case:指定的item_id大于10时，返回空数据********************
+
+
+[DEBUG] [Mon,2014-02-24 01:02:06] [UniTestCase.py-line:84] [<module>-MainThread] Task End****************************************************************************************************
+
+
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:80] [<module>-MainThread] Task Start****************************************************************************************************
+
+
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+[ERROR] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:69] [TestServiceProc-MainThread] [Errno 111] Connection refused
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+
+
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个重复的item_id，返回多次重复数据********************
+[ERROR] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:69] [TestServiceProc-MainThread] [Errno 111] Connection refused
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个重复的item_id，返回多次重复数据********************
+
+
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+[ERROR] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:69] [TestServiceProc-MainThread] [Errno 111] Connection refused
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+
+
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:不指定item_id，返回空数据********************
+[ERROR] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:69] [TestServiceProc-MainThread] [Errno 111] Connection refused
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:不指定item_id，返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的各字段超长，有检查，不会直接报错********************
+[ERROR] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:69] [TestServiceProc-MainThread] [Errno 111] Connection refused
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的各字段超长，有检查，不会直接报错********************
+
+
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+[ERROR] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:69] [TestServiceProc-MainThread] [Errno 111] Connection refused
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个异常的algorithmId，返回空数据********************
+[ERROR] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:69] [TestServiceProc-MainThread] [Errno 111] Connection refused
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个异常的algorithmId，返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个不存在的Item_id, 返回空数据********************
+[ERROR] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:69] [TestServiceProc-MainThread] [Errno 111] Connection refused
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个不存在的Item_id, 返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+[ERROR] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:69] [TestServiceProc-MainThread] [Errno 111] Connection refused
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+
+
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+[ERROR] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:69] [TestServiceProc-MainThread] [Errno 111] Connection refused
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+[ERROR] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:69] [TestServiceProc-MainThread] [Errno 111] Connection refused
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+[ERROR] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:69] [TestServiceProc-MainThread] [Errno 111] Connection refused
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+[ERROR] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:69] [TestServiceProc-MainThread] [Errno 111] Connection refused
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+[ERROR] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:69] [TestServiceProc-MainThread] [Errno 111] Connection refused
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的头字段不在白名单内，不会有返回********************
+[ERROR] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:69] [TestServiceProc-MainThread] [Errno 111] Connection refused
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的头字段不在白名单内，不会有返回********************
+
+
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+[ERROR] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:69] [TestServiceProc-MainThread] [Errno 111] Connection refused
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+
+
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+[ERROR] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:69] [TestServiceProc-MainThread] [Errno 111] Connection refused
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+
+
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id大于10时，返回空数据********************
+[ERROR] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:69] [TestServiceProc-MainThread] [Errno 111] Connection refused
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id大于10时，返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 21:44:01] [UniTestCase.py-line:83] [<module>-MainThread] Task End****************************************************************************************************
+
+
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:80] [<module>-MainThread] Task Start****************************************************************************************************
+
+
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+
+
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个重复的item_id，返回多次重复数据********************
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个重复的item_id，返回多次重复数据********************
+
+
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+
+
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:不指定item_id，返回空数据********************
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:不指定item_id，返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的各字段超长，有检查，不会直接报错********************
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的各字段超长，有检查，不会直接报错********************
+
+
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个异常的algorithmId，返回空数据********************
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个异常的algorithmId，返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个不存在的Item_id, 返回空数据********************
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个不存在的Item_id, 返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+
+
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0.0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0.0, 2.1, 2.1]}]
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的头字段不在白名单内，不会有返回********************
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的头字段不在白名单内，不会有返回********************
+
+
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+
+
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+
+
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id大于10时，返回空数据********************
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id大于10时，返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 21:45:40] [UniTestCase.py-line:83] [<module>-MainThread] Task End****************************************************************************************************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:80] [<module>-MainThread] Task Start****************************************************************************************************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个重复的item_id，返回多次重复数据********************
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个重复的item_id，返回多次重复数据********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:不指定item_id，返回空数据********************
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:不指定item_id，返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的各字段超长，有检查，不会直接报错********************
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的各字段超长，有检查，不会直接报错********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个异常的algorithmId，返回空数据********************
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个异常的algorithmId，返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个不存在的Item_id, 返回空数据********************
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个不存在的Item_id, 返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0.0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0.0, 2.1, 2.1]}]
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的头字段不在白名单内，不会有返回********************
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的头字段不在白名单内，不会有返回********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id大于10时，返回空数据********************
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id大于10时，返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:52] [UniTestCase.py-line:83] [<module>-MainThread] Task End****************************************************************************************************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:80] [<module>-MainThread] Task Start****************************************************************************************************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个重复的item_id，返回多次重复数据********************
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个重复的item_id，返回多次重复数据********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:不指定item_id，返回空数据********************
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:不指定item_id，返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的各字段超长，有检查，不会直接报错********************
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的各字段超长，有检查，不会直接报错********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个异常的algorithmId，返回空数据********************
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个异常的algorithmId，返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个不存在的Item_id, 返回空数据********************
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个不存在的Item_id, 返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0.0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0.0, 2.1, 2.1]}]
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的头字段不在白名单内，不会有返回********************
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的头字段不在白名单内，不会有返回********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id大于10时，返回空数据********************
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id大于10时，返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:54] [UniTestCase.py-line:83] [<module>-MainThread] Task End****************************************************************************************************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:80] [<module>-MainThread] Task Start****************************************************************************************************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个重复的item_id，返回多次重复数据********************
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个重复的item_id，返回多次重复数据********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:不指定item_id，返回空数据********************
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:不指定item_id，返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的各字段超长，有检查，不会直接报错********************
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的各字段超长，有检查，不会直接报错********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个异常的algorithmId，返回空数据********************
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个异常的algorithmId，返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个不存在的Item_id, 返回空数据********************
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个不存在的Item_id, 返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0.0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0.0, 2.1, 2.1]}]
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的头字段不在白名单内，不会有返回********************
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的头字段不在白名单内，不会有返回********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id大于10时，返回空数据********************
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id大于10时，返回空数据********************
+
+
+[DEBUG] [Sun,2014-03-02 23:32:55] [UniTestCase.py-line:83] [<module>-MainThread] Task End****************************************************************************************************
+
+
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:80] [<module>-MainThread] Task Start****************************************************************************************************
+
+
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+
+
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个重复的item_id，返回多次重复数据********************
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个重复的item_id，返回多次重复数据********************
+
+
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+
+
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:不指定item_id，返回空数据********************
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:不指定item_id，返回空数据********************
+
+
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的各字段超长，有检查，不会直接报错********************
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的各字段超长，有检查，不会直接报错********************
+
+
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+
+
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个异常的algorithmId，返回空数据********************
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个异常的algorithmId，返回空数据********************
+
+
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个不存在的Item_id, 返回空数据********************
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个不存在的Item_id, 返回空数据********************
+
+
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+
+
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+
+
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+
+
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0.0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0.0, 2.1, 2.1]}]
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+
+
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+
+
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+
+
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的头字段不在白名单内，不会有返回********************
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的头字段不在白名单内，不会有返回********************
+
+
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+
+
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+
+
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id大于10时，返回空数据********************
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id大于10时，返回空数据********************
+
+
+[DEBUG] [Tue,2014-03-04 12:13:21] [UniTestCase.py-line:83] [<module>-MainThread] Task End****************************************************************************************************
+
+
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:80] [<module>-MainThread] Task Start****************************************************************************************************
+
+
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+
+
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个重复的item_id，返回多次重复数据********************
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个重复的item_id，返回多次重复数据********************
+
+
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+
+
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:不指定item_id，返回空数据********************
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:不指定item_id，返回空数据********************
+
+
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的各字段超长，有检查，不会直接报错********************
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的各字段超长，有检查，不会直接报错********************
+
+
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+
+
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个异常的algorithmId，返回空数据********************
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个异常的algorithmId，返回空数据********************
+
+
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个不存在的Item_id, 返回空数据********************
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个不存在的Item_id, 返回空数据********************
+
+
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+
+
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+
+
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+
+
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0.0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0.0, 2.1, 2.1]}]
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+
+
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+
+
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+
+
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的头字段不在白名单内，不会有返回********************
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的头字段不在白名单内，不会有返回********************
+
+
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+
+
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+
+
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id大于10时，返回空数据********************
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id大于10时，返回空数据********************
+
+
+[DEBUG] [Wed,2014-03-05 11:23:01] [UniTestCase.py-line:83] [<module>-MainThread] Task End****************************************************************************************************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:80] [<module>-MainThread] Task Start****************************************************************************************************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个重复的item_id，返回多次重复数据********************
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个重复的item_id，返回多次重复数据********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:不指定item_id，返回空数据********************
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:不指定item_id，返回空数据********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的各字段超长，有检查，不会直接报错********************
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的各字段超长，有检查，不会直接报错********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个异常的algorithmId，返回空数据********************
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个异常的algorithmId，返回空数据********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个不存在的Item_id, 返回空数据********************
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个不存在的Item_id, 返回空数据********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0.0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0.0, 2.1, 2.1]}]
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的头字段不在白名单内，不会有返回********************
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的头字段不在白名单内，不会有返回********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id大于10时，返回空数据********************
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:123
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[ERROR] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:63] [TestServiceProc-MainThread] Verify ERROR:ExpData Not Equal ActData
+[ERROR] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:69] [TestServiceProc-MainThread] 
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id大于10时，返回空数据********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:12] [UniTestCase.py-line:83] [<module>-MainThread] Task End****************************************************************************************************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:80] [<module>-MainThread] Task Start****************************************************************************************************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的单个item_id存在，且对应多个item，按序返回多个item********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个重复的item_id，返回多次重复数据********************
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'12313225205891489106', u'value': [1.0]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个重复的item_id，返回多次重复数据********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求多个存在的item_id，按序返回对应的多个items********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:不指定item_id，返回空数据********************
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:不指定item_id，返回空数据********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的各字段超长，有检查，不会直接报错********************
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的各字段超长，有检查，不会直接报错********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的algorithmId和Item_id不匹配，返回空数据********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个异常的algorithmId，返回空数据********************
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个异常的algorithmId，返回空数据********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定一个不存在的Item_id, 返回空数据********************
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定一个不存在的Item_id, 返回空数据********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'1259799566744551423', u'value': [0.033, 0, 0, 0]}, {u'id': u'11123334861849599032', u'value': [0.028, 0, 0, 0]}, {u'id': u'1265442767224438783', u'value': [0.023, 0, 0, 0]}]
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sim_poi)********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'1263213863881408511', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_rev_poi)********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0.0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0.0, 2.1, 2.1]}]
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'17851252106569187327', u'value': [0.6, 1.8, 0, 2.4]}, {u'id': u'17659761101346177023', u'value': [0.3, 0, 2.1, 2.1]}]
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(rule_sr_poi)********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'5026498080748631254', u'value': [0.3]}, {u'id': u'16665388941293091536', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sim_poi)********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'4264384871892547789', u'value': [0.3]}, {u'id': u'18014588673453981695', u'value': [0.3]}, {u'id': u'15586078841391410201', u'value': [0.3]}, {u'id': u'1266102942352539647', u'value': [0.3]}, {u'id': u'12459090306594030442', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:各种不同的前缀item类型，都能够查到数据(topic_sr_poi)********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:请求的头字段不在白名单内，不会有返回********************
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:请求的头字段不在白名单内，不会有返回********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'23209876544356767899', u'value': [0.3, 0, 0]}]
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:返回的item对应的value不为数值时，server可以处理异常********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1.0]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:[{u'id': u'18012202574307917823', u'value': [0.3, 0.5, 0.4]}, {u'id': u'3455455555554568890', u'value': [0.2, 1]}, {u'id': u'12313225205891489106', u'value': [1]}, {u'id': u'18119621412888245380', u'value': [0.7]}, {u'id': u'1264468492555555555', u'value': [0.7]}, {u'id': u'2071168565446484381', u'value': [0.3]}, {u'id': u'1264468492548046847', u'value': [0.3]}, {u'id': u'11710154692952313709', u'value': [0.3]}]
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id等于10时，可以正常返回对应数据********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:20] [TestServiceProc-MainThread] Start Log of Case:指定的item_id大于10时，返回空数据********************
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:50] [TestServiceProc-MainThread] ExpData:
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:58] [TestServiceProc-MainThread] ActData:
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:73] [TestServiceProc-MainThread] End Log of Case:指定的item_id大于10时，返回空数据********************
+
+
+[DEBUG] [Wed,2014-03-05 11:24:51] [UniTestCase.py-line:83] [<module>-MainThread] Task End****************************************************************************************************
+
+

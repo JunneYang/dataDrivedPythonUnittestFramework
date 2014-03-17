@@ -1,0 +1,277 @@
+{
+    "case_1756612": {
+        "info": {
+            "name": "请求的单个item_id存在，且对应多个item，按序返回多个item",
+            "is_valid": true,
+            "types": []
+        },
+        "params": {
+            "servicekey": "key1",
+            "secretkey": "pass",
+            "subservice": "sub",
+            "algorithmId": "topic_rev_poi",
+            "item_ids": ["9977193541978760286"]
+        },
+        "exp_data": [{"id":"18012202574307917823","value":[0.3,0.5,0.4]},{"id":"12313225205891489106","value":[1.0]},{"id":"18119621412888245380","value":[0.7]},{"id":"2071168565446484381","value":[0.3]},{"id":"11710154692952313709","value":[0.3]}]
+    },
+    "case_1756613": {
+        "info": {
+            "name": "请求多个重复的item_id，返回多次重复数据",
+            "is_valid": true,
+            "types": []
+        },
+        "params": {
+            "servicekey": "key1",
+            "secretkey": "pass",
+            "subservice": "sub",
+            "algorithmId": "topic_rev_poi",
+            "item_ids": ["9977193541978760286","9977193541978760286","9977193541978760286"]
+        },
+        "exp_data": [{"id":"18012202574307917823","value":[0.3,0.5,0.4]},{"id":"18012202574307917823","value":[0.3,0.5,0.4]},{"id":"18012202574307917823","value":[0.3,0.5,0.4]},{"id":"12313225205891489106","value":[1.0]},{"id":"12313225205891489106","value":[1.0]},{"id":"12313225205891489106","value":[1.0]},{"id":"18119621412888245380","value":[0.7]},{"id":"18119621412888245380","value":[0.7]},{"id":"18119621412888245380","value":[0.7]},{"id":"2071168565446484381","value":[0.3]},{"id":"2071168565446484381","value":[0.3]},{"id":"2071168565446484381","value":[0.3]},{"id":"11710154692952313709","value":[0.3]},{"id":"11710154692952313709","value":[0.3]},{"id":"11710154692952313709","value":[0.3]}]
+    },
+
+    "case_1756614": {
+        "info": {
+            "name": "请求多个存在的item_id，按序返回对应的多个items",
+            "is_valid": true,
+            "types": []
+        },
+        "params": {
+            "servicekey": "key1",
+            "secretkey": "pass",
+            "subservice": "sub",
+            "algorithmId": "topic_rev_poi",
+            "item_ids": ["9977193541978760286","97725670051042825"]
+        },
+        "exp_data": [{"id":"18012202574307917823","value":[0.3,0.5,0.4]},{"id":"3455455555554568890","value":[0.2,1.0]},{"id":"12313225205891489106","value":[1]},{"id":"18119621412888245380","value":[0.7]},{"id":"1264468492555555555","value":[0.7]},{"id":"2071168565446484381","value":[0.3]},{"id":"1264468492548046847","value":[0.3]},{"id":"11710154692952313709","value":[0.3]}]
+    },
+
+    "case_1756615": {
+        "info": {
+            "name": "不指定item_id，返回空数据",
+            "is_valid": true,
+            "types": []
+        },
+        "params": {
+            "servicekey": "key1",
+            "secretkey": "pass",
+            "subservice": "sub",
+            "algorithmId": "topic_rev_poi",
+            "item_ids": []
+        },
+        "exp_data": ""
+    },
+
+    "case_1756616": {
+        "info": {
+            "name": "请求的各字段超长，有检查，不会直接报错",
+            "is_valid": true,
+            "types": []
+        },
+        "params": {
+            "servicekey": "key1",
+            "secretkey": "pass",
+            "subservice": "sub",
+            "algorithmId": "topic_rev_poi_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            "item_ids": ["888888888788992343243243243243243243243243242342343243242343243243244354353556635345435345345435435435555533454353454645656645453454358666666666666666666666666666666666666666666666666666666666666666666666666666666699999999999999999999999999999999999999999999999999999999999999934555555555555555555555555555555555555555"]
+        },
+        "exp_data": ""
+    },
+
+    "case_1756650": {
+        "info": {
+            "name": "指定的algorithmId和Item_id不匹配，返回空数据",
+            "is_valid": true,
+            "types": []
+        },
+        "params": {
+            "servicekey": "key1",
+            "secretkey": "pass",
+            "subservice": "sub",
+            "algorithmId": "rule_sr_poi",
+            "item_ids": ["9977193541978760286"] 
+        },
+        "exp_data": ""
+    },
+    "case_1756651": {
+        "info": {
+            "name": "指定一个异常的algorithmId，返回空数据",
+            "is_valid": true,
+            "types": []
+        },
+        "params": {
+            "servicekey": "key1",
+            "secretkey": "pass",
+            "subservice": "sub",
+            "algorithmId": "aaddfdfd",
+            "item_ids": ["9977193541978760286"] 
+        },
+        "exp_data": ""
+    },
+    "case_1756652": {
+        "info": {
+            "name": "指定一个不存在的Item_id, 返回空数据",
+            "is_valid": true,
+            "types": []
+        },
+        "params": {
+            "servicekey": "key1",
+            "secretkey": "pass",
+            "subservice": "sub",
+            "algorithmId": "topic_rev_poi",
+            "item_ids": ["sdfdsfdsfdsfdssdf78760286"]
+        },
+        "exp_data": ""
+    },
+    "case_1756654": {
+        "info": {
+            "name": "指定多个Item_id，其中有些不存在，按序返回存在item对应的多个items",
+            "is_valid": true,
+            "types": []
+        },
+        "params": {
+            "servicekey": "key1",
+            "secretkey": "pass",
+            "subservice": "sub",
+            "algorithmId": "topic_rev_poi",
+            "item_ids": ["9977193541978760286","sdfdfs8989898sdfdsf","sdfsdf89988888","97725670051042825"]   
+        },
+        "exp_data": [{"id":"18012202574307917823","value":[0.3,0.5,0.4]},{"id":"3455455555554568890","value":[0.2,1.0]},{"id":"12313225205891489106","value":[1]},{"id":"18119621412888245380","value":[0.7]},{"id":"1264468492555555555","value":[0.7]},{"id":"2071168565446484381","value":[0.3]},{"id":"1264468492548046847","value":[0.3]},{"id":"11710154692952313709","value":[0.3]}]
+    },
+    "case_1756655_1": {
+        "info": {
+            "name": "各种不同的前缀item类型，都能够查到数据(rule_sim_poi)",
+            "is_valid": true,
+            "types": []
+        },
+        "params": {
+            "servicekey": "key1",
+            "secretkey": "pass",
+            "subservice": "sub",
+            "algorithmId": "rule_sim_poi",
+            "item_ids": ["10004434638009044588"]
+        },
+        "exp_data": [{"id":"1259799566744551423","value":[0.033,0,0,0]},{"id":"11123334861849599032","value":[0.028,0,0,0]},{"id":"1265442767224438783","value":[0.023,0,0,0]}]
+    },
+    "case_1756655_2": {
+        "info": {
+            "name": "各种不同的前缀item类型，都能够查到数据(rule_rev_poi)",
+            "is_valid": true,
+            "types": []
+        },
+        "params": {
+            "servicekey": "key1",
+            "secretkey": "pass",
+            "subservice": "sub",
+            "algorithmId": "rule_rev_poi",
+            "item_ids": ["10018581952589982316"]
+        },
+        "exp_data": [{"id":"1263213863881408511","value":[0.3,0,2.1,2.1]}]
+    },
+    "case_1756655_3": {
+        "info": {
+            "name": "各种不同的前缀item类型，都能够查到数据(rule_sr_poi)",
+            "is_valid": true,
+            "types": []
+        },
+        "params": {
+            "servicekey": "key1",
+            "secretkey": "pass",
+            "subservice": "sub",
+            "algorithmId": "rule_sr_poi",
+            "item_ids": ["10017172940604359437"]
+        },
+        "exp_data": [{"id":"17851252106569187327","value":[0.6,1.8,0.0,2.4]},{"id":"17659761101346177023","value":[0.3,0.0,2.1,2.1]}]
+    },
+    "case_1756655_4": {
+        "info": {
+            "name": "各种不同的前缀item类型，都能够查到数据(topic_sim_poi)",
+            "is_valid": true,
+            "types": []
+        },
+        "params": {
+            "servicekey": "key1",
+            "secretkey": "pass",
+            "subservice": "sub",
+            "algorithmId": "topic_sim_poi",
+            "item_ids": ["10011643256668115755"]
+        },
+        "exp_data": [{"id":"5026498080748631254","value":[0.3]},{"id":"16665388941293091536","value":[0.3]}]
+    },
+    "case_1756655_5": {
+        "info": {
+            "name": "各种不同的前缀item类型，都能够查到数据(topic_sr_poi)",
+            "is_valid": true,
+            "types": []
+        },
+        "params": {
+            "servicekey": "key1",
+            "secretkey": "pass",
+            "subservice": "sub",
+            "algorithmId": "topic_sr_poi",
+            "item_ids": ["10090259186480701187"]
+        },
+        "exp_data": [{"id":"4264384871892547789","value":[0.3]},{"id":"18014588673453981695","value":[0.3]},{"id":"15586078841391410201","value":[0.3]},{"id":"1266102942352539647","value":[0.3]},{"id":"12459090306594030442","value":[0.3]}]
+    },
+    "case_1776860": {
+        "info": {
+            "name": "请求的头字段不在白名单内，不会有返回",
+            "is_valid": true,
+            "types": []
+        },
+        "params": {
+            "servicekey": "key2",
+            "secretkey": "pass",
+            "subservice": "sub2",
+            "algorithmId": "topic_sim_poi",
+            "item_ids": ["10011643256668115755"]
+        },
+        "exp_data": ""
+    },
+   "case_1776871": {
+        "info": {
+            "name": "返回的item对应的value不为数值时，server可以处理异常",
+            "is_valid": true,
+            "types": []
+        },
+        "params": {
+            "servicekey": "key1",
+            "secretkey": "pass",
+            "subservice": "sub",
+            "algorithmId": "topic_sr_poi",
+            "item_ids": ["40000023434343434334"]
+        },
+        "exp_data": [{"id":"23209876544356767899", "value":[0.3, 0, 0]}]
+    },
+    "case_1776913": {
+        "info": {
+            "name": "指定的item_id等于10时，可以正常返回对应数据",
+            "is_valid": true,
+            "types": []
+        },
+        "params": {
+            "servicekey": "key1",
+            "secretkey": "pass",
+            "subservice": "sub",
+            "algorithmId": "topic_rev_poi",
+            "item_ids": ["40000023434343434334","234343242323423234","467643322523422","746456343453242","2345464564545","23246576577788","23456457657588989","23436456477576578","9977193541978760286","97725670051042825"]
+        },
+        "exp_data": [{"id":"18012202574307917823","value":[0.3,0.5,0.4]},{"id":"3455455555554568890","value":[0.2,1.0]},{"id":"12313225205891489106","value":[1]},{"id":"18119621412888245380","value":[0.7]},{"id":"1264468492555555555","value":[0.7]},{"id":"2071168565446484381","value":[0.3]},{"id":"1264468492548046847","value":[0.3]},{"id":"11710154692952313709","value":[0.3]}]
+    },
+    "case_1776915": {
+        "info": {
+            "name": "指定的item_id大于10时，返回空数据",
+            "is_valid": true,
+            "types": []
+        },
+        "params": {
+            "servicekey": "key1",
+            "secretkey": "pass",
+            "subservice": "sub",
+            "algorithmId": "topic_rev_poi",
+            "item_ids": ["40000023434343434334","234343242323423234","467643322523422","746456343453242","2345464564545","23246576577788","23456457657588989","23436456477576578","9977193541978760286","97725670051042825","40990990000043340900"]
+        },
+        "exp_data": ""
+    }
+
+}
